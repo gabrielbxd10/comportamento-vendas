@@ -187,7 +187,7 @@ src="https://www.facebook.com/tr?id=1847624325894754&ev=PageView&noscript=1" alt
     <div class="price"><span class="cur">R$</span><span class="val">17</span><span class="cur">,00</span></div>
     <div class="once">✓ pagamento único · acesso imediato e vitalício</div>
     <!-- TROQUE pelo seu link de checkout de R$27 -->
-    <a href="https://ggcheckout.app/checkout/v5/9GGRhbdi369XpKlrFJ7t" class="btn btn--block pulse">QUERO TER MAIS PAZ EM CASA 🧘</a>
+    <a href="https://ggcheckout.app/checkout/v5/9GGRhbdi369XpKlrFJ7t" class="btn btn--block pulse checkout-btn">QUERO TER MAIS PAZ EM CASA 🧘</a>
     <div class="pay"><span>🔒 Compra segura</span><span>💳 Cartão · Pix</span><span>⚡ Liberação automática</span></div>
   </div>
 </div></section>
@@ -208,5 +208,6 @@ src="https://www.facebook.com/tr?id=1847624325894754&ev=PageView&noscript=1" alt
 </div></section>
 
 <footer>© 2026 1000 Histórias Infantis Educativas — Comportamento em Paz</footer>
+<script>document.querySelectorAll(".checkout-btn").forEach(function(el){el.addEventListener("click",function(){try{if(window.fbq){fbq("track","InitiateCheckout");}}catch(e){}});});</script>
 </body>
 </html>

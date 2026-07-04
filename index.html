@@ -209,6 +209,6 @@ src="https://www.facebook.com/tr?id=807179969060641&ev=PageView&noscript=1" alt=
 </div></section>
 
 <footer>© 2026 1000 Histórias Infantis Educativas — Comportamento em Paz</footer>
-<script>document.querySelectorAll(".checkout-btn").forEach(function(el){el.addEventListener("click",function(){try{if(window.fbq){fbq("track","InitiateCheckout");}}catch(e){}});});</script>
+<script>document.querySelectorAll(".checkout-btn").forEach(function(el){el.addEventListener("click",function(ev){try{if(window.fbq){fbq("track","InitiateCheckout");}}catch(e){}var h=el.getAttribute("href");if(h&&/^https?:/i.test(h)&&el.getAttribute("target")!=="_blank"){ev.preventDefault();setTimeout(function(){window.location.href=h;},300);}});});</script>
 </body>
 </html>
